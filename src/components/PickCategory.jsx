@@ -1,7 +1,7 @@
 import './pickCategory.css'
 import { useContext } from 'react'
 import { QuizContext } from '../context/quiz'
-import Category from '../img/category.svg'
+import Category from '../img/category.png'
 const PickCategory = () => {
   const [quizState, dispatch] = useContext(QuizContext)
 
