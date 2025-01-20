@@ -4,7 +4,7 @@ import { QuizContext } from "../context/quiz";
 
 import Option from "./Option";
 
-import "./Question.css";
+import "./question.css";
 
 const Question = () => {
   const [quizState, dispatch] = useContext(QuizContext);
